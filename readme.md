@@ -1,0 +1,1 @@
+## Base64 encode/decode library with support for browser && Node.js

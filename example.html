@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Base64 test</title>
+	<script src="base64.js"></script>
+</head>
+<body>
+
+<script>
+var str = 'This is just a test string'; 
+	coded = Base64.encode(str),
+
+	decoded = Base64.decode(coded);
+
+	console.log('original string = ', str);
+	console.log('coded string    = ', coded);
+	console.log('decoded string  = ', decoded);
+</script>
+</body>
+</html>
