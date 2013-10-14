@@ -1,8 +1,8 @@
 (function() {
-    'use strict';
+'use strict';
 
-    var root = this,
-        hasBuffer = typeof Buffer !== 'undefined';
+var root = this,
+    hasBuffer = typeof Buffer !== 'undefined';
 
 var Base64 = new function() {
     var _keyStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
