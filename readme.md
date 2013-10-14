@@ -1,1 +1,1 @@
-## Base64 encode/decode library with support for browser && Node.js
+## Base64 encode/decode lib with AMD and CJS support
